@@ -7,9 +7,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/leetm4n/typesense-go/v2/typesense/api"
-	"github.com/leetm4n/typesense-go/v2/typesense/api/pointer"
 	"github.com/stretchr/testify/require"
+	"github.com/typesense/typesense-go/v2/typesense/api"
+	"github.com/typesense/typesense-go/v2/typesense/api/pointer"
 )
 
 func TestCollectionRetrieve(t *testing.T) {

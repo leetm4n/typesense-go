@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/leetm4n/typesense-go/v2/typesense"
+	"github.com/typesense/typesense-go/v2/typesense"
 )
 
 var typesenseClient *typesense.Client

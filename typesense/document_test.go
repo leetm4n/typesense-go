@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/leetm4n/typesense-go/v2/typesense/mocks"
 	"github.com/stretchr/testify/assert"
+	"github.com/typesense/typesense-go/v2/typesense/mocks"
 	"go.uber.org/mock/gomock"
 )
 

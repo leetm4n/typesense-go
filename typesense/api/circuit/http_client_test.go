@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/leetm4n/typesense-go/v2/typesense/api/circuit/mocks"
 	"github.com/stretchr/testify/assert"
+	"github.com/typesense/typesense-go/v2/typesense/api/circuit/mocks"
 	"go.uber.org/mock/gomock"
 )
 

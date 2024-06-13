@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/leetm4n/typesense-go/v2/typesense/api"
+	"github.com/typesense/typesense-go/v2/typesense/api"
 )
 
 type MultiSearchInterface interface {

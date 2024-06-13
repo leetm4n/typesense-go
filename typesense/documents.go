@@ -8,7 +8,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/leetm4n/typesense-go/v2/typesense/api"
+	"github.com/typesense/typesense-go/v2/typesense/api"
 )
 
 var upsertAction api.IndexDocumentParamsAction = "upsert"

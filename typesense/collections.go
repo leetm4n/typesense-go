@@ -3,7 +3,7 @@ package typesense
 import (
 	"context"
 
-	"github.com/leetm4n/typesense-go/v2/typesense/api"
+	"github.com/typesense/typesense-go/v2/typesense/api"
 )
 
 // CollectionsInterface is a type for Collections API operations

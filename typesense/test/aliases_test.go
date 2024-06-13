@@ -7,9 +7,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/leetm4n/typesense-go/v2/typesense/api"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/typesense/typesense-go/v2/typesense/api"
 )
 
 func TestCollectionAliasUpsertNewAlias(t *testing.T) {

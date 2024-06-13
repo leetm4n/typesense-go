@@ -9,10 +9,10 @@ import (
 
 	"bytes"
 
-	"github.com/leetm4n/typesense-go/v2/typesense/api"
-	"github.com/leetm4n/typesense-go/v2/typesense/api/pointer"
-	"github.com/leetm4n/typesense-go/v2/typesense/mocks"
 	"github.com/stretchr/testify/assert"
+	"github.com/typesense/typesense-go/v2/typesense/api"
+	"github.com/typesense/typesense-go/v2/typesense/api/pointer"
+	"github.com/typesense/typesense-go/v2/typesense/mocks"
 	"go.uber.org/mock/gomock"
 )
 
