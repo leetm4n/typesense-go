@@ -1,9 +1,9 @@
 # typesense-go
 
 [![Build Status](https://cloud.drone.io/api/badges/typesense/typesense-go/status.svg)](https://cloud.drone.io/typesense/typesense-go)
-[![GoReportCard Status](https://goreportcard.com/badge/github.com/typesense/typesense-go)](https://goreportcard.com/report/github.com/typesense/typesense-go)
-[![Go Reference](https://pkg.go.dev/badge/github.com/typesense/typesense-go.svg)](https://pkg.go.dev/github.com/typesense/typesense-go)
-[![GitHub release](https://img.shields.io/github/v/release/typesense/typesense-go)](https://github.com/typesense/typesense-go/releases/latest)
+[![GoReportCard Status](https://goreportcard.com/badge/github.com/leetm4n/typesense-go/v2)](https://goreportcard.com/report/github.com/leetm4n/typesense-go/v2)
+[![Go Reference](https://pkg.go.dev/badge/github.com/leetm4n/typesense-go/v2.svg)](https://pkg.go.dev/github.com/leetm4n/typesense-go/v2)
+[![GitHub release](https://img.shields.io/github/v/release/typesense/typesense-go)](https://github.com/leetm4n/typesense-go/v2/releases/latest)
 [![Gitter](https://badges.gitter.im/typesense-go/community.svg)](https://gitter.im/typesense-go/community)
 
 Go client for the Typesense API: https://github.com/typesense/typesense
@@ -11,7 +11,7 @@ Go client for the Typesense API: https://github.com/typesense/typesense
 ## Installation
 
 ```
-go get github.com/typesense/typesense-go
+go get github.com/leetm4n/typesense-go/v2
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ go get github.com/typesense/typesense-go
 Import the the package into your code :
 
 ```go
-import "github.com/typesense/typesense-go/typesense"
+import "github.com/leetm4n/typesense-go/v2/typesense"
 ```
 
 Create new client:
@@ -43,7 +43,7 @@ client := typesense.NewClient(
 	)
 ```
 
-You can also find some examples in [integration tests](https://github.com/typesense/typesense-go/tree/master/typesense/test).
+You can also find some examples in [integration tests](https://github.com/leetm4n/typesense-go/v2/tree/master/typesense/test).
 
 ### Create a collection
 
@@ -396,7 +396,7 @@ client.Operations().Vote(context.Background())
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/typesense/typesense-go.
+Bug reports and pull requests are welcome on GitHub at https://github.com/leetm4n/typesense-go/v2.
 
 #### Development Workflow Setup
 
