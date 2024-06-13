@@ -5,7 +5,7 @@ info:
   version: 0.25.0
 externalDocs:
   description: Find out more about Typsesense
-  url: https://typesense.org
+  url: https:/typesense.org
 security:
   - api_key_header: []
 tags:
@@ -13,39 +13,39 @@ tags:
     description: A collection is defined by a schema
     externalDocs:
       description: Find out more
-      url: https://typesense.org/api/#create-collection
+      url: https:/typesense.org/api/#create-collection
   - name: documents
     description: A document is an individual record to be indexed and belongs to a collection
     externalDocs:
       description: Find out more
-      url: https://typesense.org/api/#index-document
+      url: https:/typesense.org/api/#index-document
   - name: promote
     description: Promote certain documents over others
     externalDocs:
       description: Find out more
-      url: https://typesense.org/docs/0.23.0/api/#curation
+      url: https:/typesense.org/docs/0.23.0/api/#curation
   - name: analytics
     description: Typesense can aggregate search queries for both analytics purposes and for query suggestions.
     externalDocs:
       description: Find out more
-      url: https://typesense.org/docs/0.25.0/api/analytics-query-suggestions.html
+      url: https:/typesense.org/docs/0.25.0/api/analytics-query-suggestions.html
   - name: keys
     description: Manage API Keys with fine-grain access control
     externalDocs:
       description: Find out more
-      url: https://typesense.org/docs/0.23.0/api/#api-keys
+      url: https:/typesense.org/docs/0.23.0/api/#api-keys
   - name: debug
     description: Debugging information
   - name: operations
     description: Manage Typesense cluster
     externalDocs:
       description: Find out more
-      url: https://typesense.org/docs/0.23.0/api/#cluster-operations
+      url: https:/typesense.org/docs/0.23.0/api/#cluster-operations
   - name: stopwords
     description: Manage stopwords sets
     externalDocs:
       description: Find out more
-      url: https://typesense.org/docs/26.0/api/stopwords.html
+      url: https:/typesense.org/docs/26.0/api/stopwords.html
 
 paths:
   /collections:
